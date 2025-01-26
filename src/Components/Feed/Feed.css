@@ -1,0 +1,100 @@
+.feed {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-column-gap: 16px;
+    grid-row-gap: 43px;
+    margin-top: 76px;
+    margin-right: 24px;
+}
+
+.card .thumbnail {
+    width: 100%;
+    border-radius: 13px;
+    cursor: pointer;
+}
+
+.card:hover .thumbnail{
+    border-radius: 0;
+    animation: border_radius 0.5s ease;
+}
+
+.card h2 {
+    font-size: 15.5px;
+    font-weight: 600;
+    color: #000;
+    line-height: 1.4;
+}
+
+.card h3 {
+    margin-top: 5px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #686767;
+}
+
+.card p {
+    font-size: 14px;
+    color: #686767;
+    margin-top: 3px;
+}
+
+.card .info-img {
+    width: 35px;
+    border-radius: 50%;
+}
+
+.card .info-container {
+    display: flex;
+    justify-content: space-between;    
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+.info-middle {
+    width: 265px;
+    margin-left: 4px;
+}
+
+.info-right img {
+    width: 23px;
+    padding: 0.5px;
+}
+
+.design p{
+    font-size: 15px;
+    margin: 50px 0 20px 0;
+    text-align: center;
+}
+
+.design span {
+    color: rgb(0, 76, 175);
+    font-weight: 600;
+}
+
+@keyframes border_radius {
+    0% {
+        border-radius: 13px;
+    }
+    100% {
+        border-radius: 0px;
+    }   
+}
+
+.info-middle h2 {
+    font-size: 1rem; /* Adjust font size as needed */
+    font-weight: bold;
+    line-height: 1.2; /* Adjust line height */
+    max-height: 2.4rem; /* Restrict height to 2 lines */
+    overflow: hidden; /* Hide overflowing text */
+    text-overflow: ellipsis; /* Add "..." for overflow */
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Limit to 2 lines */
+    -webkit-box-orient: vertical;
+    white-space: normal;      
+}
+
+@media (max-width: 900) {
+    .feed {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }    
+}

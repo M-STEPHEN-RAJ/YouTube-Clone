@@ -1,0 +1,43 @@
+.explore {
+    background-color: #fff; 
+    position: fixed;
+    top: 56px;
+    width: 100%;
+    height: 56px;
+    display: flex;
+    gap: 11px;
+}
+
+.background {
+    background-color: #f0f0f0;
+    width: fit-content;
+    padding: 8px 12.5px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 12px 0px 12px 0;
+}
+
+.background:hover {
+    background-color: #e6e3e3;
+}
+
+.background p {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.e-active {
+    background-color: #000;
+    color: #fff;
+}
+
+.e-active:hover {
+    background-color: #000;
+}
+
+@media (max-width: 900px) {
+    .explore {
+        display: none;
+    }
+    
+}

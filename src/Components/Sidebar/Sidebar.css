@@ -1,0 +1,173 @@
+.sidebar {
+    background-color: #fff;
+    width: 17%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    padding-top: 67px;
+    padding-left: 1%;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+.sortcut-links img {
+    width: 28px;
+    margin-right: 24px;
+    margin-left: 5px;
+}
+
+.side-link {
+    display: flex;  
+    align-items: center; 
+    cursor: pointer;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 8px 5px;
+}
+
+.side-link img {
+    width: 24px;
+}
+
+.you1 {
+    display: none;
+}
+
+.sidebar .hr-1 {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    border: 0;
+    height: 1px;
+    background-color: #dfdfdf;
+}
+
+.side-link:hover {
+    background-color: #ebebeb;
+    border-radius: 8px;
+}
+
+.side-link p {
+    font-size: 14px;
+}
+
+.you {
+    margin-left: 5px;
+    font-weight: 600;
+}
+
+.sidebar .hr-2 {
+    margin-top: 12px;
+    margin-bottom: 26px;
+    border: 0;
+    height: 1px;
+    background-color: #dfdfdf;
+}
+
+.subscribed-list h3 {
+    font-size: 15px;
+    margin: -5px 0px 5px 10px;
+    margin-bottom: 7px;
+}
+
+.subscribed-list img {
+    width: 25px;
+    border-radius: 50%;
+}
+
+.small-sidebar {
+    width: 100px;
+    margin-left: -15px;
+    display: flex;
+}
+ 
+.small-sidebar .subscribed-list, 
+.small-sidebar .middle,
+.small-sidebar .explore-list,
+.small-sidebar .about-list,
+.small-sidebar hr {
+    display: none;
+}
+
+.small-sidebar p {
+    font-size: 10px;
+    text-align: center;
+}
+
+.small-sidebar .side-link {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 14px 7px;
+    width: 100%;
+}
+
+.small-sidebar .side-link img {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.sidebar .hr-3 {
+    margin-top: 12px;
+    margin-bottom: 24px;
+    border: 0;
+    height: 1px;
+    background-color: #dfdfdf;
+}
+
+.explore-list h3 {
+    font-size: 15px;
+    margin: -5px 0px 5px 10px;
+    margin-bottom: 7px;
+}
+
+.explore-list img {
+    width: 28px;
+}
+
+.sidebar .hr-4 {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    border: 0;
+    height: 1px;
+    background-color: #dfdfdf;
+}
+
+.sidebar .hr-5 {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    border: 0;
+    height: 1px;
+    background-color: #dfdfdf;
+}
+
+.footer {
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: default;
+}
+
+.footer span {
+    color: #006bb3;
+    cursor: pointer;
+}
+
+.small-sidebar .footer {
+    display: none;
+}
+
+.s-active {
+    background-color: rgb(233, 233, 233);
+    border-radius: 8px;
+}
+
+.s-active:hover {
+    background-color: #d8d6d6;
+}
+
+@media (max-width: 900px) {
+    .sidebar {
+        display: none;
+    }
+    
+}

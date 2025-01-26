@@ -1,0 +1,48 @@
+.recommended {
+    margin: 20px 0px 0 24px;
+    width: 400px;
+}
+
+.side-video-list {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3.5px;
+}
+
+.side-video-list img {
+    width: 168px;
+    height: 94px;
+    border-radius: 8px;
+}
+
+.side-video-middle {
+    padding: 2px 8.5px;
+    width: 300px;
+}
+
+.side-video-middle h4 {
+    font-size: 13px;
+    line-height: 18.5px;
+}
+
+.side-video-middle p {
+    font-size: 11.7px;
+    color: #1311119f;
+    margin-top: 7px;
+}
+
+.side-video-middle .side-num {
+    font-size: 11.7px;
+    color: #1311119f;    
+}
+
+.side-video-right img {
+    width: 20px;    
+}
+
+@media (max-width: 900px) {
+    .recommended {
+        display: none;
+    }
+    
+}

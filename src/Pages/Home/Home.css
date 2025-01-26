@@ -1,0 +1,16 @@
+.container {
+    margin-top: 8px;
+    margin-left: 263.5px;
+}
+
+.large-container {
+    margin-left: 96px;
+}
+
+@media (max-width: 900px) {
+    .large-container,
+    .container {
+        padding-left: -15%;
+        padding-right: 5%;
+    }    
+}
