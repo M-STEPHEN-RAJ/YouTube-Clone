@@ -9,11 +9,9 @@
 | 4.0.x   | :white_check_mark: |
 | < 4.0   | :x:                |
 
-## Reporting a Vulnerability
+## Reporting a Vulnerability  
 
-If you've found a security vulnerability in this project, please report it by following these steps:
-
-Email: Send an email to security@yourdomain.com with details of the issue, including steps to reproduce and any relevant information.
+If you discover a security issue, please report it by opening an issue in this repository. We appreciate your help in keeping this project secure.  
 
 Security Advisory Process:
 
